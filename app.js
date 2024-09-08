@@ -124,7 +124,7 @@ if(compareValue > 792749){
 }
 
 await rp.get(`https://api.telegram.org/bot6905230003:AAGrI-NkUBEABPJL8477Ao2PikPkJ1Q8CGA/sendMessage?chat_id=-4115387140&text=\n ${text} \n Precos atualizado para esse mes \n ${resultData} \n proximos precos daqui ha 2horas\n `)
-await  sleep(30)
+await  sleep(10)
  
 
 
